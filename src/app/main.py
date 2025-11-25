@@ -9,6 +9,7 @@ from src.common.vars import HOME_HOST
 
 def create_app():
     app = Flask(__name__, 
+                
                 template_folder='templates')
     register_routes(app)
     return app
